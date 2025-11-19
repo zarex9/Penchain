@@ -12,8 +12,8 @@ export default function Home() {
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl font-headline">
               The Future of Verifiable Credentials
             </h1>
-            <p className="text-muted-foreground md:text-xl">
-              CredenceChain allows universities and bootcamps to mint educational credentials as NFTs, providing students with tamper-proof certificates and employers with instant verification.
+              <p className="text-muted-foreground md:text-xl">
+                Penchain allows universities and bootcamps to mint educational credentials as NFTs, providing students with tamper-proof certificates and employers with instant verification.
             </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
               <Button asChild size="lg">

@@ -1,4 +1,4 @@
-# **App Name**: CredenceChain
+# **App Name**: Penchain
 
 ## Core Features:
 

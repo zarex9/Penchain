@@ -34,9 +34,9 @@ export default function VerifyPage() {
     <div className="container max-w-2xl py-12">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold font-headline">Verify a Credential</h1>
-        <p className="text-muted-foreground mt-2">
-          Enter a credential ID to verify its authenticity on the CredenceChain network.
-        </p>
+          <p className="text-muted-foreground mt-2">
+            Enter a credential ID to verify its authenticity on the Penchain network.
+          </p>
       </div>
 
       <Card>
