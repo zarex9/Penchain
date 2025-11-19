@@ -6,8 +6,8 @@ import { Footer } from '@/components/common/Footer';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'CredenceChain - Verifiable Digital Credentials',
-  description: 'The future of verifiable degrees and skill certificates on the blockchain. Mint, verify, and integrate your educational achievements seamlessly.',
+  title: 'Penchain — Credential Vault',
+  description: 'Issue, manage and verify verifiable credentials with privacy-preserving on-chain proofs.',
 };
 
 export default function RootLayout({

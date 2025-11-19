@@ -1,15 +1,15 @@
 'use client';
 
 import Link from 'next/link';
-import { GraduationCap } from 'lucide-react';
+import { Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
-  { href: '/student/1', label: 'Student Resume' },
+  { href: '/student/1', label: 'Portfolio' },
   { href: '/verify', label: 'Verify' },
-  { href: '/mint', label: 'Mint' },
+  { href: '/mint', label: 'Issue Credential' },
 ];
 
 export function Header() {
@@ -20,8 +20,8 @@ export function Header() {
       <div className="container flex h-14 items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="flex items-center gap-2 font-bold text-lg">
-            <GraduationCap className="h-6 w-6 text-primary" />
-            <span className="font-headline">CredenceChain</span>
+            <Shield className="h-6 w-6 text-accent" />
+            <span className="font-headline">Penchain</span>
           </Link>
         </div>
         <nav className="flex-1 flex items-center space-x-6 text-sm font-medium">
